@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1019934141799",
+    "firebase_url": "https://marathon-b4f75.firebaseio.com",
+    "project_id": "marathon-b4f75",
+    "storage_bucket": "marathon-b4f75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019934141799:android:f6ab7d167cdef014f393c2",
+        "android_client_info": {
+          "package_name": "com.example.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019934141799-sur2j3fk838rstmpvbom49jq80onomvp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5hHusSbxfPFusQJ0XryBKRKv-9YGQVqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019934141799-sur2j3fk838rstmpvbom49jq80onomvp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019934141799:android:26e74c463e2f6f11f393c2",
+        "android_client_info": {
+          "package_name": "com.example.tictactoe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019934141799-sur2j3fk838rstmpvbom49jq80onomvp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5hHusSbxfPFusQJ0XryBKRKv-9YGQVqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019934141799-sur2j3fk838rstmpvbom49jq80onomvp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

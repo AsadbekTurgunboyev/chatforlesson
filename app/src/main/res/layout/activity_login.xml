@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.login.LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:src="@drawable/frame_1"
+            android:scaleType="centerCrop"
+            android:layout_height="@dimen/_200sdp"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Quyidagi formani to'ldiring"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/_20sdp"
+            android:text="Ism"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:id="@+id/input_name_et"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            app:boxBackgroundColor="@color/white"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusTopStart="8dp"
+            app:hintAnimationEnabled="false"
+            app:hintEnabled="false"
+            app:layout_constraintVertical_bias=".7"
+            app:startIconDrawable="@drawable/ic_profile"
+            app:startIconTint="#B6B6B6">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Kiriting" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/_10sdp"
+            android:text="Familya"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:id="@+id/input_surname_et"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            app:boxBackgroundColor="@color/white"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusTopStart="8dp"
+            app:hintAnimationEnabled="false"
+            app:hintEnabled="false"
+            app:layout_constraintVertical_bias=".7"
+            app:startIconDrawable="@drawable/ic_profile"
+            app:startIconTint="#B6B6B6">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Kiriting" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                app:backgroundTint="#FDDB00"
+                app:fabSize="auto"
+
+                android:layout_gravity="end"
+                android:id="@+id/next_detail_car_fbn"
+                android:src="@drawable/ic_arrow" />
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</androidx.core.widget.NestedScrollView>
